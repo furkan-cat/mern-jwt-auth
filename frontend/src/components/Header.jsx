@@ -40,7 +40,7 @@ const Header = () => {
               {userInfo ? (
                 <>
                   <NavDropdown
-                    title="asd"
+                    title={capitalizeFirstLetter(userInfo.name)}
                     id="username"
                   >
                     <LinkContainer to="/profile">
